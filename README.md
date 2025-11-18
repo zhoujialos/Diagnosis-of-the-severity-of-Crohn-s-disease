@@ -290,35 +290,10 @@ If you use this code in your research, please cite:
 ```
 
 
-## Contact
-
-[Your contact information]
-
 ## Acknowledgments
 
 - PyTorch Metric Learning library for metric learning implementations
 - Optuna for hyperparameter optimization
 - scikit-learn for traditional ML methods and evaluation metrics
 
-## Troubleshooting
 
-### CUDA Out of Memory
-Reduce batch size in `ComparisonConfig` or use CPU:
-```python
-DEVICE = 'cpu'
-```
-
-### Slow Training
-Reduce number of trials or episodes:
-```python
-N_TRIALS
-num_episodes  # In trial suggestions
-```
-
-### Missing UMAP
-Install with: `pip install umap-learn` or the code will automatically fall back to t-SNE.
-
-
-## Version History
-
-- **v1.0** (2025): Initial release with 3 few-shot methods and 5 traditional ML methods
