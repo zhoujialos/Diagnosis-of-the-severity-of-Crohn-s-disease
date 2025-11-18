@@ -277,13 +277,6 @@ final_model = trainer.train_final_model(best_params)
 test_acc, test_f1 = trainer.evaluate_few_shot_samplewise(final_model)
 ```
 
-## Performance Comparison
-
-The framework automatically compares all methods and generates:
-- Performance ranking
-- Statistical significance tests
-- Overfitting analysis (CV vs test performance)
-
 ## Citation
 
 If you use this code in your research, please cite:
@@ -291,15 +284,11 @@ If you use this code in your research, please cite:
 ```bibtex
 @article{your_paper,
   title={Few-Shot Prototypical Networks Enable Computed Tomography Enterography-Independent, High-AUC Severity Stratification of Crohn’s Disease at First Diagnosis},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
+  author={JiaLi Zhou},
+  year={2025}
 }
 ```
 
-## License
-
-[Specify your license here]
 
 ## Contact
 
@@ -329,14 +318,7 @@ num_episodes  # In trial suggestions
 ### Missing UMAP
 Install with: `pip install umap-learn` or the code will automatically fall back to t-SNE.
 
-## Future Work
-
-- [ ] Add more few-shot learning architectures (MAML, Relation Networks)
-- [ ] Implement ensemble methods
-- [ ] Add data augmentation strategies
-- [ ] Support multi-modal inputs
-- [ ] Add interpretability analysis (SHAP values)
 
 ## Version History
 
-- **v1.0** (2024): Initial release with 3 few-shot methods and 5 traditional ML methods
+- **v1.0** (2025): Initial release with 3 few-shot methods and 5 traditional ML methods
