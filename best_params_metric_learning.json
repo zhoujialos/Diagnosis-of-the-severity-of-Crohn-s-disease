@@ -1,0 +1,9 @@
+{
+  "hidden_size": 239,
+  "embedding_size": 55,
+  "dropout_rate": 0.3362092062098302,
+  "learning_rate": 0.0011299217751402331,
+  "weight_decay": 0.0009880994913171082,
+  "batch_size": 13,
+  "num_epochs": 35
+}

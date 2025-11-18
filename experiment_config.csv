@@ -1,0 +1,8 @@
+﻿配置项,值
+试验次数,100
+交叉验证折数,5
+Few-Shot N-Way,3
+Few-Shot N-Support,5
+Few-Shot N-Query,3
+设备,cpu
+随机种子,42

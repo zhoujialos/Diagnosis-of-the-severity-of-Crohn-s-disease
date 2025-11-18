@@ -1,0 +1,8 @@
+{
+  "hidden_size": 256,
+  "embedding_size": 80,
+  "dropout_rate": 0.2987586652315627,
+  "learning_rate": 0.0007289920156933578,
+  "weight_decay": 3.099246938221801e-05,
+  "num_episodes": 153
+}

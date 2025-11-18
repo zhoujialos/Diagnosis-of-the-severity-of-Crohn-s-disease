@@ -1,0 +1,6 @@
+{
+  "n_estimators": 22,
+  "max_depth": 10,
+  "min_samples_split": 2,
+  "criterion": "gini"
+}
